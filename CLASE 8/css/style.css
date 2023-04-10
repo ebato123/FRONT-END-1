@@ -1,0 +1,637 @@
+* {
+  box-sizing: border-box;
+}
+
+/** --------------------------------------------BODY-------------------------------------------- **/
+
+body {
+  z-index: 1;
+  position: relative;
+
+  background-image: url("/img/muro-hormigon-gris.jpg");
+  background-size: cover;
+
+  width: 1864px;
+  height: 1198px;
+  padding: 0%;
+  border: 0%;
+  margin: 0%;
+}
+
+/** ----------------------HEADER---------------------- **/
+
+header {
+  
+}
+
+.ignorar {
+  z-index: 1;
+  position: fixed;
+
+  background-color: black;
+  background-size: contain;
+
+  width: 100%;
+  height: 150px;
+  padding: 0%;
+  border: 0%;
+  margin: 0%;
+}
+
+/** Top Banner **/
+.banner-superior {
+  z-index: 60;
+  position: fixed;
+
+  background-image: url("/img/textura-oscura-acuarela.jpg");
+  background-size: cover;
+
+  width: 100%;
+  height: 150px;
+  padding: 0%;
+  border: 0%;
+
+  top: 0%;
+}
+
+/** Foto de Perfil **/
+.foto-perfil {
+  z-index: 61;
+  position: fixed;
+
+  background-image: url("/img/foto.jpeg");
+  background-size: cover;
+
+  width: 150px;
+  height: 150px;
+  border: 8px double whitesmoke;
+
+  left: 80%;
+  top: 0%;
+}
+
+/** Título Banner **/
+.titulo-curriculum {
+  position: fixed;
+  display: block;
+  z-index: 62;
+
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 60px;
+  color: white;
+
+  left: 4.5%;
+  top: -2%;
+}
+
+
+/** Íconos Banner **/
+.fa-address-book {
+  z-index: 64;
+  position: fixed;
+
+  color: whitesmoke;
+
+  font-size: 50px;
+
+  top: 5.5%;
+  left: 37%;
+}
+
+.fa-book {
+  z-index: 65;
+  position: fixed;
+
+  color: whitesmoke;
+
+  font-size: 50px;
+
+  top: 5.5%;
+  left: 47%;
+}
+
+.fa-envelope {
+  z-index: 66;
+  position: fixed;
+
+  color: whitesmoke;
+
+  font-size: 50px;
+
+  top: 5.5%;
+  left: 57%;
+}
+
+/** lineas **/
+.linea-1 {
+  position: fixed;
+  z-index: 66;
+
+  background-image: url("/img/muro-hormigon-gris.jpg");
+  background-size: cover;
+
+  width: 10px;
+  height: 150px;
+  padding: 0%;
+  border: 0%;
+  margin: 0%;
+
+  left: 33%;
+  top: 0%;
+}
+
+.linea-2 {
+  position: fixed;
+  z-index: 66;
+
+  background-image: url("/img/muro-hormigon-gris.jpg");
+  background-size: cover;
+
+  width: 10px;
+  height: 150px;
+  padding: 0%;
+  border: 0%;
+  margin: 0%;
+
+  left: 63.3%;
+  top: 0%;
+}
+
+/** ----------------------MAIN---------------------- **/
+
+/** Nombre y Apellido **/
+.nombre-apellido {
+  position: absolute;
+  display: block;
+  z-index: 35;
+
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 59px;
+  font-weight: 500;
+
+  color: white;
+
+  left: 36%;
+  top: 10%;
+}
+
+/** Caja Nombre y Apellido **/
+.caja-nombre-apellido {
+  position: absolute;
+  display: block;
+  z-index: 34;
+
+  background-image: url("/img/textura-oscura-acuarela.jpg");
+  background-size: cover;
+  border-radius: 19%;
+
+  width: 575.09px;
+  height: 190px;
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+
+  left: 33%;
+  top: 9.5%;
+}
+
+/** lineas 2 **/
+.linea-3 {
+  position: absolute;
+  z-index: 65;
+
+  background-image: url("/img/muro-hormigon-gris.jpg");
+  background-size: cover;
+  border-radius: 0%;
+
+  width: 10px;
+  height: 150px;
+  padding: 0%;
+  border: 0%;
+  margin: 0%;
+
+  left: 33%;
+  top: 10.9%;
+}
+
+.linea-4 {
+  position: absolute;
+  z-index: 65;
+
+  background-image: url("/img/muro-hormigon-gris.jpg");
+  background-size: cover;
+
+  width: 10px;
+  height: 150px;
+  padding: 0%;
+  border: 0%;
+  margin: 0%;
+
+  left: 63.3%;
+  top: 10.9%;
+}
+
+/** Cuadros Main **/
+/** CUADRO Estilo de Trabajo **/
+#forma-1 {
+  z-index: 15;
+  position: absolute;
+
+  background-image: url("/img/forma-1.png");
+  background-size: cover;
+  width: 440px;
+  height: 340px;
+  padding: 0%;
+  border: 0%;
+  margin: 0%;
+
+  top: 20%;
+  left: 4%;
+}
+
+#subtitulo-1 {
+  position: absolute;
+  display: block;
+  z-index: 34;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 29px;
+  color: Black;
+
+  left: 10.5%;
+  top: 22%;
+}
+
+/** Elegante **/
+#subtitulo-2 {
+  position: absolute;
+  display: block;
+  z-index: 34;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 39px;
+  color: Black;
+
+  left: 12%;
+  top: 24%;
+}
+
+/** A la hora... **/
+#subtitulo-3 {
+  position: absolute;
+  display: block;
+  z-index: 34;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  text-align: center;
+  color: Black;
+
+  width: 200px;
+  height: 160px;
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+
+  left: 10.2%;
+  top: 34.1%;
+}
+
+#bigote-img {
+  z-index: 18;
+  position: absolute;
+
+  background-image: url("/img/bigote.png");
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  padding: 0%;
+  border: 0%;
+  margin: 0%;
+
+  top: 25.5%;
+  left: 10.9%;
+}
+
+/** CUADRO Teamwork **/
+#forma-2 {
+  z-index: 15;
+  position: absolute;
+
+  background-image: url("/img/forma-1.png");
+  background-size: cover;
+  width: 440px;
+  height: 340px;
+  padding: 0%;
+  border: 0%;
+  margin: 0%;
+
+  top: 20%;
+  left: 71.5%;
+}
+
+/** Teamwork **/
+#subtitulo-4 {
+  position: absolute;
+  display: block;
+  z-index: 34;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 39px;
+  color: Black;
+
+  left: 76.9%;
+  top: 22%;
+}
+
+/** Me resulta fácil... **/
+#subtitulo-5 {
+  position: absolute;
+  display: block;
+  z-index: 34;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  text-align: center;
+  color: Black;
+
+  width: 310px;
+  height: 160px;
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+
+  left: 74.9%;
+  top: 29.5%;
+}
+
+#teamwork-img {
+  z-index: 18;
+  position: absolute;
+
+  background-image: url("/img/teamwork.png");
+  background-size: cover;
+  opacity: 25%;
+
+  width: 250px;
+  height: 246px;
+  padding: 0%;
+  border: 0%;
+  margin: 0%;
+
+  top: 23.7%;
+  left: 76.6%;
+}
+
+/** CUADRO Programas **/
+#forma-3 {
+  z-index: 15;
+  position: absolute;
+
+  background-image: url("/img/forma-2.png");
+  background-size: cover;
+
+  width: 1120px;
+  height: 629px;
+  padding: 0%;
+  border: 0%;
+  margin: 0%;
+
+  top: 35%;
+  left: 19.5%;
+}
+
+/** Programas & Lenguajes **/
+#subtitulo-6 {
+  position: absolute;
+  display: block;
+  z-index: 34;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 42px;
+  font-style: oblique;
+  font-weight: 540;
+  color: Black;
+
+  left: 33.8%;
+  top: 50%;
+}
+
+/** Íconos **/
+/** Ícono Word **/
+#icono-1 {
+  position: absolute;
+  z-index: 95;
+
+  background-image: url("/img/icons/word.png");
+  background-size: cover;
+
+  width: 104px;
+  height: 104px;
+
+  top: 61%;
+  left: 28%;
+}
+
+/** Ícono Powerpoint **/
+#icono-2 {
+  position: absolute;
+  z-index: 95;
+
+  background-image: url("/img/icons/powerpoint.png");
+  background-size: cover;
+
+  width: 104px;
+  height: 104px;
+
+  top: 61%;
+  left: 37.3%;
+}
+
+/** Ícono Excel **/
+#icono-3 {
+  position: absolute;
+  z-index: 95;
+
+  background-image: url("/img/icons/excel.png");
+  background-size: cover;
+
+  width: 104px;
+  height: 104px;
+
+  top: 61%;
+  left: 46.5%;
+}
+
+/** Ícono Photoshop **/
+#icono-4 {
+  position: absolute;
+  z-index: 95;
+
+  background-image: url("/img/icons/photoshop.png");
+  background-size: cover;
+
+  width: 104px;
+  height: 104px;
+
+  top: 61%;
+  left: 55.5%;
+}
+
+/** Ícono Camtasia **/
+#icono-5 {
+  position: absolute;
+  z-index: 95;
+
+  background-image: url("/img/icons/camtasia.png");
+  background-size: cover;
+
+  width: 104px;
+  height: 104px;
+
+  top: 61%;
+  left: 65%;
+}
+
+/** Ícono HTML **/
+#icono-6 {
+  position: absolute;
+  z-index: 95;
+
+  background-image: url("/img/icons/hml5.png");
+  background-size: cover;
+
+  width: 104px;
+  height: 104px;
+
+  top: 75%;
+  left: 34%;
+}
+
+/** Ícono CSS **/
+#icono-7 {
+  position: absolute;
+  z-index: 95;
+
+  background-image: url("/img/icons/css.png");
+  background-size: cover;
+
+  width: 104px;
+  height: 104px;
+
+  top: 75%;
+  left: 42%;
+}
+
+/** Ícono GIT **/
+#icono-8 {
+  position: absolute;
+  z-index: 95;
+
+  background-image: url("/img/icons/git.png");
+  background-size: cover;
+
+  width: 104px;
+  height: 104px;
+
+  top: 75%;
+  left: 49%;
+}
+
+/** Ícono GitHub **/
+#icono-9 {
+  position: absolute;
+  z-index: 95;
+
+  background-image: url("/img/icons/github.png");
+  background-size: cover;
+
+  width: 104px;
+  height: 104px;
+
+  top: 75%;
+  left: 56%;
+}
+
+
+/** ----------------------FOOTER---------------------- **/
+
+/** Bottom Banner **/
+.banner-inferior {
+  z-index: 10;
+  position: absolute;
+
+  background-image: url("/img/textura-oscura-acuarela.jpg");
+  background-size: cover;
+
+  width: 100%;
+  height: 150px;
+  padding: 0%;
+  border: 0%;
+  margin: 0%;
+
+  bottom: 0%;
+}
+
+/** Iconos Banner **/
+#iconos-banner {
+  display: flex;
+  flex-wrap: wrap;
+
+  flex-direction: row;
+
+  z-index: 100;
+  position: absolute;
+
+  font-size: 60px;
+
+  color: aliceblue;
+
+  right: 41%;
+  top: 90%;
+  
+}
+
+#github-ico {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+#instagram-ico {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+#twitter-ico {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+/** Título Redes Sociales **/
+#redes {
+  position: absolute;
+  z-index: 110;
+
+  font-size: 58px;
+  font-style: italic;
+  color: whitesmoke;
+
+  top: 84%;
+  left: 28%;
+
+}
+
+#sociales {
+  position: absolute;
+  z-index: 110;
+
+  font-size: 58px;
+  font-style: italic;
+  color: whitesmoke;
+
+  top: 84%;
+  right: 28%;
+
+}

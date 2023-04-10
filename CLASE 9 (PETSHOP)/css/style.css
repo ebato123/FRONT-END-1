@@ -1,0 +1,176 @@
+/** HEAD **/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/** GENERAL RULES **/
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/** Para dispositivos HASTA 1024px**/
+
+@media (max-width: 1024px) {
+
+body {
+    width: 100vw;
+    height: 100%;
+}
+
+body header {
+    display: flex;
+
+    width: 100%;
+    height: 54px;
+}
+
+body header section#ofertas-header {
+    display: none;
+}
+
+body header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    background: #F0A83E;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+body header nav article.logo {
+    background-image: url("/img/Logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 100%;
+    height: 25px;
+
+    margin-left: 6%;
+
+}
+
+body header nav label {
+    margin-right: 10%;
+}
+
+body header nav label i {
+    font-size: 30px;
+    color: white;
+
+}
+
+body header nav input{
+display: none;
+}
+
+body header nav ul{
+display: none;
+}
+
+body main section#sec1 {
+    width: 100%;
+    height: 440px;
+}
+
+body main section#seccion-1 section#sec1 div#background-img {
+    background-image: url(/img/Full\ 1.png);
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+}
+
+body main section#seccion-1 section#sec2 {
+    position: absolute;
+    z-index: 100;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 29px;
+    text-align: center;
+    
+    color: #3C2313;
+
+    top: 22%;
+    left: 3.5%;
+}
+
+body main section#seccion-1 section#sec2 p#t1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 19px;
+    text-align: center;
+    
+    color: #3C2313;
+
+    width: 90vw;
+    height: 54px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+
+    margin-bottom: 4%;
+}
+
+body main section#seccion-1 section#sec2 p#t2 {
+    position: relative;
+    left: 25%;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 19px;
+    text-align: center;
+    
+    color: #3C2313;
+
+    margin-bottom: 4%;
+}
+
+body main section#seccion-1 section#sec2 button#t3 {
+    position: relative;
+    left: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    
+    color: #FFFFFF;
+
+    width: 141px;
+    height: 49px;
+
+    background: #F0A83E;
+    border-radius: 5px;
+    border-style: none;
+}
+
+}
